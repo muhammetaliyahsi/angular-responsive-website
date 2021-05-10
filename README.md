@@ -14,7 +14,7 @@
 
 ## Mobile
 
-![mobileHomePage](https://user-images.githubusercontent.com/77547144/117683695-ff4aeb00-b1bc-11eb-832a-e0e7c79bd894.png) ![mobileAboutPage](https://user-images.githubusercontent.com/77547144/117683872-26a1b800-b1bd-11eb-80a4-3ffa715eb0f0.png)
+![mobileHomePage](https://user-images.githubusercontent.com/77547144/117683695-ff4aeb00-b1bc-11eb-832a-e0e7c79bd894.png)    ![mobileAboutPage](https://user-images.githubusercontent.com/77547144/117683872-26a1b800-b1bd-11eb-80a4-3ffa715eb0f0.png)
 
 ![mobileServicePage](https://user-images.githubusercontent.com/77547144/117683976-3caf7880-b1bd-11eb-89a6-e1ef471ceaf4.png) ![mobilePlanPage](https://user-images.githubusercontent.com/77547144/117684010-42a55980-b1bd-11eb-9bf2-d7520ddc0342.png)
 
