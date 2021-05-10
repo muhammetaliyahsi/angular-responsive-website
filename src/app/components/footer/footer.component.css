@@ -1,0 +1,130 @@
+section{
+    padding: 0 7%;
+    padding-top: 12rem;
+}
+
+.btn{
+    font-size: 1.7rem;
+    padding: .7rem 3rem;
+    /* background: var(--myColor); */
+    background: #FF6F61;
+    color: #fff;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    background: #333;
+}
+
+.footer{
+    background: #333;
+}
+
+.footer .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+    margin: 2rem;
+    flex: 1 1 30rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footer .box-container .box p{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+    font-size: 1.8rem;
+    color: #eee;
+    padding: .4rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.footer .box-container .box a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box:nth-child(2){
+    text-align: center;
+}
+
+.footer .box-container form{
+    display: flex;
+    align-items: center;
+}
+
+.footer .box-container form input[type="email"]{
+    height: 4.1rem;
+    width: 100%;
+    font-size: 1.7rem;
+    padding: 0 1rem;
+}
+
+.footer .box-container form .btn{
+    margin-top: 0;
+}
+
+.footer .box-container form .btn:hover{
+    color: #333;
+    background: #ccc;
+}
+
+.footer .credit{
+    font-size: 2rem;
+    background: #222;
+    text-align: center;
+    color: #fff;
+    padding: 2rem 1rem;
+    font-weight: normal;
+}
+
+.footer .credit a{
+    /* color: var(--myColor); */
+    color: #FF6F61;
+    text-decoration: none;
+}
+
+
+@media (max-width:768px) {
+
+    html{
+        font-size: 55%;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    html{
+        font-size: 50%;
+    }
+
+    .footer .box-container .box:last-chield{
+        text-align: center;
+    }
+
+    .footer .box-container .box:last-chield p{
+        font-size: 1.7rem;
+    }
+
+    .footer .box-container .box:last-chield form{
+        flex-flow: column;
+    }
+
+    .footer .box-container .box:last-chield form .btn{
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
