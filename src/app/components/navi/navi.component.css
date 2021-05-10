@@ -8,13 +8,6 @@ header{
     width: 100%;
 }
 
-header .heading{
-    font-size: 3rem;
-    color: #666;
-    padding: 1rem;
-    text-align: center;
-}
-
 header #menu{
     font-size: 3rem;
     color: #666;
@@ -28,8 +21,6 @@ header .navbar ul{
     align-items: center;
     justify-content: center;
     list-style: none;
-    /* background: var(--myColor); */
-    background: #FF6F61;
     padding: 1rem;
 }
 
@@ -38,7 +29,7 @@ header .navbar ul li{
 }
 
 header .navbar ul li a{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #fff;
     text-decoration: none;
 }
@@ -48,7 +39,7 @@ header .navbar{
     justify-content: center;
 }
 
-header.navbar ul li a:hover{
+header .navbar ul li a:hover{
     color: #444;
 }
 
